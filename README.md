@@ -37,6 +37,10 @@
 - Nginx：反向代理、SSL
 
 - Gunicorn：後端 process manager
+## System Architecture
+本系統採用 Client–Server 架構，結合 Nginx 反向代理、Python 非同步後端、WebSocket 即時通訊 與 前端 AI 邊緣運算，確保即時性、安全性與穩定度。
+<img width="2597" height="1614" alt="image" src="https://github.com/user-attachments/assets/be2a325c-50df-4c3b-9116-0e46c1eecdb0" />
+
 
 ## Implementation Process（執行過程）
 
@@ -55,6 +59,8 @@
 7.後端同步兩位玩家與觀眾畫面
 
 8.Canvas 繪製遊戲畫面與分數
+<img width="2315" height="1810" alt="image" src="https://github.com/user-attachments/assets/3b6ad327-e944-4344-b5cc-45574aac67d6" />
+
 
 ## Knowledge from Lecture
 
