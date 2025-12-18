@@ -92,6 +92,15 @@
 3.透過 `python server.py` 啟動後端
 
 4.使用 `index.html`開啟遊戲大廳
+
+### Docker 快速部署
+
+sudo docker run -d \
+  --name my_game_container \
+  --restart=always \
+  -p 443:443 \
+  -p 80:80 \
+  yfrank92/lsa-team1:full
 ## Job Assignment
 
 | **姓名**   | **工作內容** |
